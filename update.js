@@ -107,9 +107,10 @@
   * @param {HTMLElement} 滑动的 dom
   * @param {function} 滑动中的callback(point)
   * @param {function} 滑动结束的callback(point)
-*/
+
 initUpdate(document.querySelector("div"),function(point){
     console.log(point)
 },function(point){
     console.log("end")
 },{animate:0.3})
+*/
